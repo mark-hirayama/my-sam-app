@@ -4,19 +4,16 @@ Transform: AWS::Serverless-2016-10-31
 Metadata:
   AWS::ServerlessRepo::Application:
     Name: my-sam-app
-    Description: This serverless application... TODO
+    Description: This serverless application is a demo
     Author: Simon Meng
-    # SPDX License Id, e.g., MIT, MIT-0, Apache-2.0. See https://spdx.org/licenses for more details
-    SpdxLicenseId: TODO
+    SpdxLicenseId: MIT
     # paths are relative to .aws-sam/build directory
     LicenseUrl: ../../LICENSE
     ReadmeUrl: ../../README.md
     Labels: [serverless]
     HomePageUrl: https://github.com/Simon2228/my-sam-app
-    # Update the semantic version and run sam publish to publish a new version of your app
     SemanticVersion: 0.0.1
-    # best practice is to use git tags for each release and link to the version tag as your source code URL
-    SourceCodeUrl: https://github.com/Simon2228/my-sam-app/tree/0.0.1
+    SourceCodeUrl: https://github.com/Simon2228/my-sam-app
 
 Parameters:
   LogLevel:

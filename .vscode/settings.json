@@ -40,5 +40,6 @@
         "--max-line-length=120",
         "--ignore",
         "E126,E226,E24,W503"
-    ]
+    ],
+    "python.pythonPath": "/Users/zhixinm/.local/share/virtualenvs/aws-serverless-codepipeline-serverlessrepo-dWN9uQhX/bin/python"
 }
