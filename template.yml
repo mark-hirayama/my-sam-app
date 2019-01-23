@@ -4,7 +4,7 @@ Transform: AWS::Serverless-2016-10-31
 Metadata:
   AWS::ServerlessRepo::Application:
     Name: my-sam-app
-    Description: This serverless application is a demo
+    Description: This serverless application is a new demo
     Author: Simon Meng
     SpdxLicenseId: MIT
     # paths are relative to .aws-sam/build directory
