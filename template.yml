@@ -8,8 +8,8 @@ Metadata:
     Author: Simon Meng
     SpdxLicenseId: MIT
     # paths are relative to .aws-sam/build directory
-    LicenseUrl: .LICENSE
-    ReadmeUrl: .README.md
+    LicenseUrl: ./LICENSE
+    ReadmeUrl: ./README.md
     Labels: [serverless]
     HomePageUrl: https://github.com/Simon2228/my-sam-app
     SemanticVersion: 0.0.1
