@@ -1,11 +1,11 @@
 version: 0.2
 phases:
-  install:
-    commands:
-    - make init
   build:
     commands:
-    - make package
+      - pip install --upgrade pip
+      - pip install pipenv --user
+      - pipenv install awscli aws-sam-cli
+      - pipenv run sam package --template-file template.yaml --output-template-file packaged-template.yml --s3-bucket test-bucket-for-mhirayam
 artifacts:
   files:
-    - .aws-sam/packaged-template.yml
+    - packaged-template.yml
